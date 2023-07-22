@@ -109,7 +109,7 @@ root.geometry("1000x300")
 frame = tk.Frame(root)
 frame.grid()
 # Добавление своих инициалов
-initials_label = tk.Label(root, text="Software made by")
+initials_label = tk.Label(root, text="Software made by Khayrullaev Bakhtiyar, code: https://github.com/bakhtiyar8/KPIs_reporting_tool")
 initials_label.grid(row=25, column=2, sticky="se")  # Размещение в последней строке и последнем столбце
 # Создайте виджет Label с комментарием или сообщением
 comment_label = tk.Label(root, text="In the excel file(*.xlsx), columns with the names Start Time and Subnetwork are required!")
